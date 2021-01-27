@@ -1,0 +1,302 @@
+Loading scanner...
+Processing application in /app/sample
+Processing gems...
+Parsing Gemfile
+[Notice] Detected Rails 6 application
+Processing configuration...
+Parsing config/environment.rb
+Parsing config/application.rb
+Parsing config/environments/production.rb
+[Notice] Escaping HTML by default
+Parsing files...
+Parsing app/channels/application_cable/channel.rb
+Parsing app/channels/application_cable/connection.rb
+Parsing app/controllers/application_controller.rb
+Parsing app/helpers/application_helper.rb
+Parsing app/jobs/application_job.rb
+Parsing app/mailers/application_mailer.rb
+Parsing app/models/application_record.rb
+Parsing config/application.rb
+Parsing config/boot.rb
+Parsing config/environment.rb
+Parsing config/environments/development.rb
+Parsing config/environments/production.rb
+Parsing config/environments/test.rb
+Parsing config/initializers/application_controller_renderer.rb
+Parsing config/initializers/assets.rb
+Parsing config/initializers/backtrace_silencers.rb
+Parsing config/initializers/content_security_policy.rb
+Parsing config/initializers/cookies_serializer.rb
+Parsing config/initializers/filter_parameter_logging.rb
+Parsing config/initializers/inflections.rb
+Parsing config/initializers/mime_types.rb
+Parsing config/initializers/permissions_policy.rb
+Parsing config/initializers/wrap_parameters.rb
+Parsing config/puma.rb
+Parsing config/routes.rb
+Parsing config/spring.rb
+Parsing node_modules/node-sass/src/libsass/extconf.rb
+Parsing /app/sample/app/views/layouts/application.html.erb
+Parsing app/views/layouts/application.html.erb
+Parsing /app/sample/app/views/layouts/mailer.html.erb
+Parsing app/views/layouts/mailer.html.erb
+Parsing /app/sample/node_modules/turbolinks/src/turbolinks/BANNER.js.erb
+Parsing node_modules/turbolinks/src/turbolinks/BANNER.js.erb
+app/controllers/application_controller.rb:2 :: parse error on value "=" (tEQL)
+Could not parse app/controllers/application_controller.rb
+/usr/local/bundle/gems/racc-1.5.2/lib/racc/parser.rb:538:in `on_error'
+/usr/local/bundle/gems/brakeman-5.0.0/bundle/ruby/2.7.0/gems/ruby_parser-3.15.1/lib/ruby_parser_extras.rb:1304:in `on_error'
+(eval):3:in `_racc_do_parse_c'
+(eval):3:in `do_parse'
+/usr/local/bundle/gems/brakeman-5.0.0/bundle/ruby/2.7.0/gems/ruby_parser-3.15.1/lib/ruby_parser_extras.rb:1329:in `block in process'
+/usr/local/lib/ruby/3.0.0/timeout.rb:97:in `block in timeout'
+/usr/local/lib/ruby/3.0.0/timeout.rb:35:in `block in catch'
+/usr/local/lib/ruby/3.0.0/timeout.rb:35:in `catch'
+/usr/local/lib/ruby/3.0.0/timeout.rb:35:in `catch'
+/usr/local/lib/ruby/3.0.0/timeout.rb:112:in `timeout'
+/usr/local/bundle/gems/brakeman-5.0.0/bundle/ruby/2.7.0/gems/ruby_parser-3.15.1/lib/ruby_parser_extras.rb:1317:in `process'
+/usr/local/bundle/gems/brakeman-5.0.0/bundle/ruby/2.7.0/gems/ruby_parser-3.15.1/lib/ruby_parser.rb:36:in `block in process'
+/usr/local/bundle/gems/brakeman-5.0.0/bundle/ruby/2.7.0/gems/ruby_parser-3.15.1/lib/ruby_parser.rb:33:in `each'
+/usr/local/bundle/gems/brakeman-5.0.0/bundle/ruby/2.7.0/gems/ruby_parser-3.15.1/lib/ruby_parser.rb:33:in `process'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/file_parser.rb:43:in `parse_ruby'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/file_parser.rb:17:in `block in parse_files'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/file_parser.rb:27:in `block in read_files'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/file_parser.rb:24:in `each'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/file_parser.rb:24:in `read_files'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/file_parser.rb:16:in `parse_files'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/scanner.rb:76:in `parse_files'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/scanner.rb:49:in `process'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman.rb:379:in `scan'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman.rb:85:in `run'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/commandline.rb:157:in `run_brakeman'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/commandline.rb:125:in `regular_report'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/commandline.rb:166:in `run_report'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/commandline.rb:35:in `run'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/commandline.rb:20:in `start'
+/usr/local/bundle/gems/brakeman-5.0.0/bin/brakeman:10:in `<top (required)>'
+/usr/local/bundle/bin/brakeman:23:in `load'
+/usr/local/bundle/bin/brakeman:23:in `<main>'
+Detecting file types...
+Processing initializers...
+ 0/5 files processedProcessing /app/sample/config/initializers/assets.rb
+ 1/5 files processedProcessing /app/sample/config/initializers/backtrace_silencers.rb
+ 2/5 files processedProcessing /app/sample/config/initializers/cookies_serializer.rb
+ 3/5 files processedProcessing /app/sample/config/initializers/filter_parameter_logging.rb
+ 4/5 files processedProcessing /app/sample/config/initializers/wrap_parameters.rb
+Processing libs...
+ 0/13 files processedProcessing /app/sample/app/channels/application_cable/channel.rb
+ 1/13 files processedProcessing /app/sample/app/channels/application_cable/connection.rb
+ 2/13 files processedProcessing /app/sample/app/helpers/application_helper.rb
+ 3/13 files processedProcessing /app/sample/app/jobs/application_job.rb
+ 4/13 files processedProcessing /app/sample/app/mailers/application_mailer.rb
+ 5/13 files processedProcessing /app/sample/config/boot.rb
+ 6/13 files processedProcessing /app/sample/config/environment.rb
+ 7/13 files processedProcessing /app/sample/config/environments/development.rb
+ 8/13 files processedProcessing /app/sample/config/environments/test.rb
+ 9/13 files processedProcessing /app/sample/config/puma.rb
+ 10/13 files processedProcessing /app/sample/config/routes.rb
+ 11/13 files processedProcessing /app/sample/config/spring.rb
+ 12/13 files processedProcessing /app/sample/node_modules/node-sass/src/libsass/extconf.rb
+Processing routes...          
+Parsing config/routes.rb
+Processing templates...       
+ 0/3 templates processedProcessing /app/sample/app/views/layouts/application.html.erb
+ 1/3 templates processedProcessing /app/sample/app/views/layouts/mailer.html.erb
+ 2/3 templates processedProcessing /app/sample/node_modules/turbolinks/src/turbolinks/BANNER.js.erb
+Processing data flow in templates...
+ 0/3 templates processedProcessing layouts/application
+ 1/3 templates processedProcessing layouts/mailer
+ 2/3 templates processedProcessing node_modules/turbolinks/src/turbolinks/BANNER
+Processing models...          
+ 0/1 files processedProcessing /app/sample/app/models/application_record.rb
+Processing controllers...     
+Processing data flow in controllers...
+Indexing call sites...        
+Running checks in parallel...
+ - CheckBasicAuth
+ - CheckBasicAuthTimingAttack
+ - CheckCrossSiteScripting
+Automatic to_json escaping is enabled.
+Checking layouts/application for XSS
+ - CheckContentTag
+Checking layouts/mailer for XSS
+ - CheckCookieSerialization
+Checking for XSS in content_tag
+Checking node_modules/turbolinks/src/turbolinks/BANNER for XSS
+ - CheckCreateWith
+ - CheckCSRFTokenForgeryCVE
+ - CheckDefaultRoutes
+ - CheckDeserialize
+Checking each controller for default routes
+ - CheckDetailedExceptions
+ - CheckDigestDoS
+ - CheckDynamicFinders
+ - CheckEscapeFunction
+ - CheckEvaluation
+ - CheckExecute
+ - CheckFileAccess
+Finding eval-like calls
+Finding system calls using ``
+Finding other system calls
+Finding possible file access
+Finding calls to load()
+ - CheckFileDisclosure
+Processing eval-like calls
+Processing system calls
+Finding calls using FileUtils
+Processing found calls
+ - CheckFilterSkipping
+ - CheckForgerySetting
+ - CheckHeaderDoS
+ - CheckI18nXSS
+ - CheckJRubyXML
+ - CheckJSONEncoding
+ - CheckJSONEntityEscape
+ - CheckJSONParsing
+ - CheckLinkTo
+ - CheckLinkToHref
+ - CheckMailTo
+ - CheckMassAssignment
+ - CheckMimeTypeDoS
+ - CheckModelAttrAccessible
+ - CheckModelAttributes
+ - CheckModelSerialize
+ - CheckNestedAttributes
+ - CheckNestedAttributesBypass
+ - CheckNumberToCurrency
+ - CheckPageCachingCVE
+ - CheckPermitAttributes
+ - CheckQuoteTableName
+ - CheckRedirect
+ - CheckRegexDoS
+Finding calls to redirect_to()
+Finding dynamic regexes
+Processing dynamic regexes
+ - CheckRender
+ - CheckRenderDoS
+ - CheckRenderInline
+Automatic to_json escaping is enabled.
+ - CheckResponseSplitting
+ - CheckRouteDoS
+ - CheckSafeBufferManipulation
+ - CheckSanitizeMethods
+ - CheckSelectTag
+ - CheckSelectVulnerability
+ - CheckSend
+Finding instances of #send
+ - CheckSendFile
+Finding all calls to send_file()
+ - CheckSessionManipulation
+ - CheckSessionSettings
+ - CheckSimpleFormat
+ - CheckSingleQuotes
+ - CheckSkipBeforeFilter
+ - CheckSprocketsPathTraversal
+ - CheckSQL
+Finding possible SQL calls on models
+Finding possible SQL calls with no target
+ - CheckSQLCVEs
+Finding possible SQL calls using constantized()
+Finding calls to named_scope or scope
+ - CheckSSLVerify
+Processing possible SQL calls
+ - CheckStripTags
+Finding calls to strip_tags()
+ - CheckSymbolDoSCVE
+ - CheckTemplateInjection
+Finding ERB.new calls
+Processing ERB.new calls
+ - CheckTranslateBug
+ - CheckUnsafeReflection
+ - CheckUnsafeReflectionMethods
+ - CheckValidationRegex
+ - CheckVerbConfusion
+ - CheckWithoutProtection
+ - CheckXMLDoS
+ - CheckYAMLParsing
+Finding all mass assignments
+Processing all mass assignments
+Checks finished, collecting results...
+Generating report...
+
+== Brakeman Report ==
+
+Application Path: /app/sample
+Rails Version: 6.1.1
+Brakeman Version: 5.0.0
+Scan Date: 2021-01-27 10:23:03 +0000
+Duration: 3.8803002 seconds
+Checks Run: BasicAuth, BasicAuthTimingAttack, CSRFTokenForgeryCVE, ContentTag, CookieSerialization, CreateWith, CrossSiteScripting, DefaultRoutes, Deserialize, DetailedExceptions, DigestDoS, DynamicFinders, EscapeFunction, Evaluation, Execute, FileAccess, FileDisclosure, FilterSkipping, ForgerySetting, HeaderDoS, I18nXSS, JRubyXML, JSONEncoding, JSONEntityEscape, JSONParsing, LinkTo, LinkToHref, MailTo, MassAssignment, MimeTypeDoS, ModelAttrAccessible, ModelAttributes, ModelSerialize, NestedAttributes, NestedAttributesBypass, NumberToCurrency, PageCachingCVE, PermitAttributes, QuoteTableName, Redirect, RegexDoS, Render, RenderDoS, RenderInline, ResponseSplitting, RouteDoS, SQL, SQLCVEs, SSLVerify, SafeBufferManipulation, SanitizeMethods, SelectTag, SelectVulnerability, Send, SendFile, SessionManipulation, SessionSettings, SimpleFormat, SingleQuotes, SkipBeforeFilter, SprocketsPathTraversal, StripTags, SymbolDoSCVE, TemplateInjection, TranslateBug, UnsafeReflection, UnsafeReflectionMethods, ValidationRegex, VerbConfusion, WithoutProtection, XMLDoS, YAMLParsing
+
+== Overview ==
+
+Controllers: 0
+Models: 1
+Templates: 3
+Errors: 1
+Security Warnings: 0
+
+== Warning Types ==
+
+
+== Controller Overview ==
+
+
+
+== Template Output ==
+
+layouts/application
+
+[Escaped Output] csrf_meta_tags
+[Escaped Output] csp_meta_tag
+[Escaped Output] stylesheet_link_tag("application", :media => "all", :"data-turbolinks-track" => "reload")
+[Escaped Output] javascript_pack_tag("application", :"data-turbolinks-track" => "reload")
+[Escaped Output] yield
+
+layouts/mailer
+
+[Escaped Output] yield
+
+node_modules/turbolinks/src/turbolinks/BANNER
+
+[Escaped Output] depend_on_asset("./VERSION").to_s.strip
+[Escaped Output] Time.now.year
+
+== Errors ==
+
+Error: app/controllers/application_controller.rb:2 :: parse error on value "=" (tEQL) Could not parse app/controllers/application_controller.rb
+Location: /usr/local/bundle/gems/racc-1.5.2/lib/racc/parser.rb:538:in `on_error'
+/usr/local/bundle/gems/brakeman-5.0.0/bundle/ruby/2.7.0/gems/ruby_parser-3.15.1/lib/ruby_parser_extras.rb:1304:in `on_error'
+(eval):3:in `_racc_do_parse_c'
+(eval):3:in `do_parse'
+/usr/local/bundle/gems/brakeman-5.0.0/bundle/ruby/2.7.0/gems/ruby_parser-3.15.1/lib/ruby_parser_extras.rb:1329:in `block in process'
+/usr/local/lib/ruby/3.0.0/timeout.rb:97:in `block in timeout'
+/usr/local/lib/ruby/3.0.0/timeout.rb:35:in `block in catch'
+/usr/local/lib/ruby/3.0.0/timeout.rb:35:in `catch'
+/usr/local/lib/ruby/3.0.0/timeout.rb:35:in `catch'
+/usr/local/lib/ruby/3.0.0/timeout.rb:112:in `timeout'
+/usr/local/bundle/gems/brakeman-5.0.0/bundle/ruby/2.7.0/gems/ruby_parser-3.15.1/lib/ruby_parser_extras.rb:1317:in `process'
+/usr/local/bundle/gems/brakeman-5.0.0/bundle/ruby/2.7.0/gems/ruby_parser-3.15.1/lib/ruby_parser.rb:36:in `block in process'
+/usr/local/bundle/gems/brakeman-5.0.0/bundle/ruby/2.7.0/gems/ruby_parser-3.15.1/lib/ruby_parser.rb:33:in `each'
+/usr/local/bundle/gems/brakeman-5.0.0/bundle/ruby/2.7.0/gems/ruby_parser-3.15.1/lib/ruby_parser.rb:33:in `process'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/file_parser.rb:43:in `parse_ruby'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/file_parser.rb:17:in `block in parse_files'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/file_parser.rb:27:in `block in read_files'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/file_parser.rb:24:in `each'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/file_parser.rb:24:in `read_files'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/file_parser.rb:16:in `parse_files'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/scanner.rb:76:in `parse_files'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/scanner.rb:49:in `process'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman.rb:379:in `scan'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman.rb:85:in `run'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/commandline.rb:157:in `run_brakeman'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/commandline.rb:125:in `regular_report'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/commandline.rb:166:in `run_report'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/commandline.rb:35:in `run'
+/usr/local/bundle/gems/brakeman-5.0.0/lib/brakeman/commandline.rb:20:in `start'
+/usr/local/bundle/gems/brakeman-5.0.0/bin/brakeman:10:in `<top (required)>'
+/usr/local/bundle/bin/brakeman:23:in `load'
+/usr/local/bundle/bin/brakeman:23:in `<main>'
+
+No warnings found
+
